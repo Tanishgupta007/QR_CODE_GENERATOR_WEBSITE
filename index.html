@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 id="head">QR CODE GENERATOR</h1>
+    <div class="qr">
+
+        <!--<a href="test.png" download>-->
+            <img src="test.png" id="qrcode" alt="Please Enter Data to Generate QR Code" onclick="download()">
+        <!-- <br> -->
+    </div>
+    <div class="qrbox">
+        <!-- <img src="test.png" alt="" id="qrcode" > -->
+        <input type="text" id="input" placeholder="Enter details here...">    
+        <!-- <input type="text"> -->
+        <button id="btn">Generate Qr code</button>
+        <script src="script.js"></script>
+    </div>
+      <footer>
+        <div class="foot">
+          Copyright &copy; <a href="https://github.com/Tanishgupta007" target="_blank">Tanish Gupta</a>
+        </div>
+      </footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    $('[title="Hosted on free web hosting 000webhost.com. Host your own website for FREE."]').hide();
+    });
+</script>
+
+</body>
+</html>
